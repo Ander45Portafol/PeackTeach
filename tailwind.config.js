@@ -11,7 +11,8 @@ export default {
   theme: {
     extend: {
       colors:{
-        purple:'#231145'
+        purple:'#231145',
+        lightPurple:'#332450'
       }
     },
   },
