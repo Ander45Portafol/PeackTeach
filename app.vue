@@ -1,11 +1,11 @@
 <template>
     <div class="w-screen h-screen body">
         <Navbar />
-        <main class=" container pt-40 mx-auto h-full">
+        <main class="container pt-40 mx-auto h-full">
             <div class="home">
 
             </div>
-            <div class="features flex-col w-full">
+            <div class="features flex-col w-11/12 ml-8">
                 <div class="w-full flex">
                     <div class="h-9 w-1 bg-white"></div>
                     <h1 class="text-white font-bold text-3xl ml-4">Features</h1>

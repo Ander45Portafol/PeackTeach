@@ -1,6 +1,6 @@
 <template>
     <div
-        class="block max-w-sm p-16 card rounded-lg shadow-lg dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700 flex-col">
+        class="block max-w-md p-12 card rounded-lg shadow-lg dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700 flex-col">
         <h5 class="mb-2 text-2xl font-bold tracking-tight text-white text-center dark:text-white">{{ props.title }}</h5>
         <div class="my-4 flex justify-center" v-html="props.icon">
         </div>
