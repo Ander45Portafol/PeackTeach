@@ -1,7 +1,7 @@
 <template>
-    <div class="w-screen h-screen body">
+    <main class="w-screen h-screen body overflow-x-hidden">
         <Navbar />
-        <main class="container pt-40 mx-auto h-full">
+        <section class="container pt-40 mx-auto h-full">
             <div class="home">
 
             </div>
@@ -25,10 +25,16 @@
                         description="Use protocols and develop practices to security guarantee " />
                 </div>
             </div>
-            <div class="services"></div>
+            <div class="services mt-10 flex-col w-11/12 ml-8 pb-10">
+                <div class="w-full flex">
+                    <div class="h-9 w-1 bg-white"></div>
+                    <h1 class="text-white font-bold text-3xl ml-4">Services</h1>
+                </div>
+                <Services/>
+            </div>
             <div class="products"></div>
-        </main>
-    </div>
+        </section>
+    </main>
 </template>
 <style scoped>
 .body {
@@ -38,7 +44,8 @@
 <script setup>
 import { initFlowbite } from 'flowbite'
 import Navbar from './Components/Navbar.vue';
-import Card from './Components/Card.vue';
+import Card from './Components/Card.vue';   
+import Services from './Components/Services.vue';
 onMounted(() => {
     initFlowbite();
 })
