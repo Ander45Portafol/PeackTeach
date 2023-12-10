@@ -1,11 +1,11 @@
 <template>
     <main class="w-screen h-screen body overflow-x-hidden">
         <Navbar />
-        <section class="container pt-40 mx-auto h-full">
+        <section class="pt-40 mx-auto h-full">
             <div class="home">
 
             </div>
-            <div class="features flex-col w-11/12 ml-8">
+            <div class="features flex-col w-11/12 ml-16">
                 <div class="w-full flex">
                     <div class="h-9 w-1 bg-white"></div>
                     <h1 class="text-white font-bold text-3xl ml-4">Features</h1>
@@ -25,14 +25,29 @@
                         description="Use protocols and develop practices to security guarantee " />
                 </div>
             </div>
-            <div class="services mt-10 flex-col w-11/12 ml-8 pb-10">
+            <div class="services mt-10 flex-col w-11/12 ml-16">
                 <div class="w-full flex">
                     <div class="h-9 w-1 bg-white"></div>
                     <h1 class="text-white font-bold text-3xl ml-4">Services</h1>
                 </div>
                 <Services/>
             </div>
-            <div class="products"></div>
+            <div class="products bg-purple h-96 w-full mt-12 p-10 flex-col">
+                <h1 class="text-white text-3xl font-bold text-center">Products</h1>
+                <div class="data-products flex w-full">
+                    <div class="proyects flex-col mt-10 p-10 w-1/2">
+                        <h3 class="text-white font-bold text-xl">Our products</h3>
+                        <ul class="mt-8 ml-4">
+                            <li class="text-white text-lg font-semibold underline">Beep&Go</li>
+                            <li class="text-white text-lg font-semibold mt-4">Ad-Astra</li>
+                            <li class="text-white text-lg font-semibold mt-4">Autorect</li>
+                        </ul>
+                    </div>
+                    <div class="data-proyect w-1/2">
+                        
+                    </div>                   
+                </div>
+            </div>
         </section>
     </main>
 </template>
@@ -40,13 +55,22 @@
 .body {
     background: linear-gradient(#030316, #231145);
 }
+.products{
+    border-top-left-radius: 100px;
+    border-top-right-radius: 100px;
+}
 </style>
 <script setup>
 import { initFlowbite } from 'flowbite'
 import Navbar from './Components/Navbar.vue';
 import Card from './Components/Card.vue';   
 import Services from './Components/Services.vue';
+import proyects from './proyects.json'
 onMounted(() => {
     initFlowbite();
+    console.log(proyects)
 })
+function cargarData(name){
+    
+}
 </script>

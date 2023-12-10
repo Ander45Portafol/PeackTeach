@@ -1,0 +1,23 @@
+{
+    "proyects":[
+        {
+            "id":1,
+            "name":"Beep&Go",
+            "image":"/imgs/BG.png",
+            "description":"It is a system designed and developed especially to manage the entrances and exits of educational institutions in general, in order to provide greater control and security to all people who use facilities of this type on a daily basis, referring to students, teachers or institutional staff. . in general."
+        },
+        {
+            "id":2,
+            "name":"Ad-Astra",
+            "image":"/imgs/Ad-astra.png",
+            "description":"In an increasingly digital world, information and event management has become crucial, and AD-ASTRA has been designed to do just that efficiently and easily. Our technological solution has been developed to address the problem of data and event management in digital environments, providing a comprehensive tool that simplifies the administration of public, private and administrative information."
+        },
+        {
+            "id":3,
+            "name":"Autorect",
+            "image":"/imgs/Autorect.png",
+            "description":"Autorect is a service-oriented online store selling automotive spare parts, in order to facilitate online purchasing, giving the user the ability to quote prices from their mobile phone, and placing orders through it."
+        }
+        
+    ]
+}
