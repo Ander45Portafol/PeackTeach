@@ -9,7 +9,11 @@ export default {
     "./nuxt.config.{js,ts}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      colors:{
+        purple:'#231145'
+      }
+    },
   },
   plugins: [require('flowbite/plugin')],
 }
